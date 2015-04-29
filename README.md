@@ -18,7 +18,7 @@ AdminLTE is a free bootstrap admin template from [Almsaeed Studio](https://almsa
 		
  4. Change current template in admin config (`config/admin.php`):
  
- 		`'template'                => 'SleepingOwl\AdminLteTemplate\Template',`
+ 		'template'                => 'SleepingOwl\AdminLteTemplate\Template',
 
 ## Copyright and License
 
