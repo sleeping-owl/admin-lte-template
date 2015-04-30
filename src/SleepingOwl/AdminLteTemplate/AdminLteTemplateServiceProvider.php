@@ -16,7 +16,7 @@ class AdminLteTemplateServiceProvider extends ServiceProvider
 
 		$this->publishes([
 			__DIR__ . '/../../../public/' => public_path('packages/sleeping-owl/admin-lte-template/'),
-		], 'assets');
+		], 'assets-lte');
 	}
 
 }
