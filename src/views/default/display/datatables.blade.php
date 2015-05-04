@@ -14,7 +14,7 @@
 	@endforeach
 </div>
 <div class="box">
-	<table class="table table-striped datatables" data-order="{{ json_encode($order) }}">
+	<table class="table table-striped datatables" data-order="{{ json_encode($order) }}" data-attributes="{{ json_encode($attributes, JSON_FORCE_OBJECT) }}">
 		<thead>
 			<tr>
 				@foreach ($columns as $column)
