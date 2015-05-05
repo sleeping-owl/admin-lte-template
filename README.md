@@ -14,7 +14,7 @@ AdminLTE is a free bootstrap admin template from [Almsaeed Studio](https://almsa
 
  3. Publish assets:
 
-		$ php artisan vendor:publish --provider=SleepingOwl/Admin/AdminLteTemplateServiceProvider --tag=assets
+		$ php artisan vendor:publish --provider=SleepingOwl/Admin/AdminLteTemplateServiceProvider --tag=assets-lte
 		
  4. Change current template in admin config (`config/admin.php`):
  
