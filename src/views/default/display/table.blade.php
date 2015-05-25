@@ -10,7 +10,7 @@
 @endif
 <div class="pull-right tableActions">
 	@foreach ($actions as $action)
-		{!! $action->render() !!}
+		{!! $action !!}
 	@endforeach
 </div>
 <div class="box">
@@ -18,7 +18,7 @@
 		<thead>
 			<tr>
 				@foreach ($columns as $column)
-					{!! $column->header()->render() !!}
+					{!! $column->header() !!}
 				@endforeach
 			</tr>
 		</thead>
@@ -29,7 +29,7 @@
 						<?php
 							$column->setInstance($instance);
 						?>
-						{!! $column->render() !!}
+						{!! $column !!}
 					@endforeach
 				</tr>
 			@endforeach
