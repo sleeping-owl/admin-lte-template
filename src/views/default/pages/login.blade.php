@@ -22,8 +22,8 @@
 					<span class="glyphicon glyphicon-lock form-control-feedback"></span>
 				</div>
 				<div class="row">
-					<div class="col-xs-8"></div>
-					<div class="col-xs-4">
+					<div class="col-xs-7"></div>
+					<div class="col-xs-5">
 						<button type="submit" class="btn btn-primary btn-block btn-flat">{{ trans('admin::lang.auth.login') }}</button>
 					</div>
 				</div>
