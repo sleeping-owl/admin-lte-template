@@ -1,6 +1,8 @@
 ## AdminLTE template for sleeping-owl/admin
 
 AdminLTE is a free bootstrap admin template from [Almsaeed Studio](https://almsaeedstudio.com).
+###Important Notes:
+######Currently only works on [sleeping-owl/admin with development tag](https://github.com/sleeping-owl/admin/tree/development)
 
 ## Installation
 
